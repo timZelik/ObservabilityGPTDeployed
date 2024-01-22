@@ -10,7 +10,7 @@ def set_openai_env_vars():
     os.environ["OPENAI_API_TYPE"] = "azure"
     os.environ["OPENAI_API_VERSION"] = "2022-12-01"
     os.environ["OPENAI_API_BASE"] = "https://dv3llm01.openai.azure.com/"
-    os.environ["OPENAI_API_KEY"] = "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"  # paste openai key into double quotes
+    os.environ["OPENAI_API_KEY"] = ""  # paste openai key into double quotes
 
 
 def initialize_embeddings():
